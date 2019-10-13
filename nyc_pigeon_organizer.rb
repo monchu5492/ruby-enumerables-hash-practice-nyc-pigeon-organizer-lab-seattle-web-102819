@@ -8,6 +8,7 @@ data.each do |key, value|
   value.each do |attribs, names|
     names.each do |name|
   
+  binding.pry
       if !new_hash.has_key?(name)
         new_hash[name] = {}
       end
