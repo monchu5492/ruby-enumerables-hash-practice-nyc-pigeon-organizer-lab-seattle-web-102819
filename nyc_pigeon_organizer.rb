@@ -14,7 +14,7 @@ data.each do |key, value|
       if !new_hash[name][key]
         new_hash[name][key] = []
       end
-      new_hash[name][key].push.to_s(attribs)
+      new_hash[name][key].to_s.push(attribs)
     end
    end     
   end 
