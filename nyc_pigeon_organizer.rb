@@ -16,7 +16,7 @@ data.each do |key, value|
         new_hash[name][key] = []
       end
       if !new_hash[name][key].include(name)
-        new_hash[name][key].push()
+        new_hash[name][key].push(name)
         
     end     
    end     
